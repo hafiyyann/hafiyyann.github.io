@@ -1,0 +1,24 @@
+p, h1, h2, h5{
+    margin-bottom: 0px;
+}
+
+hr{
+    margin: 0;
+}
+
+.profile-img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: top;
+}
+
+@media only screen and (max-width: 576px) {
+    .profile-img{
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        object-position: top;
+        margin: 10px 0;
+    }
+}
